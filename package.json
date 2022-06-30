@@ -1,5 +1,5 @@
 {
-  "name": "win-icon-extractor",
+  "name": "icon-extractor-win",
   "version": "1.0.0",
   "description": "A windows tool for extracting icons from applications and shortcuts",
   "type": "module",
