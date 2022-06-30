@@ -1,0 +1,31 @@
+{
+  "name": "win-icon-extractor",
+  "version": "1.0.0",
+  "description": "A windows tool for extracting icons from applications and shortcuts",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "win-icon-extractor.exe"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "windows",
+    "icons",
+    "files",
+    "shortcuts",
+    "extractor"
+  ],
+  "author": "NenoxAG",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NenoxAG/win-icon-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NenoxAG/win-icon-extractor/issues"
+  },
+  "homepage": "https://github.com/NenoxAG/win-icon-extractor#readme"
+}

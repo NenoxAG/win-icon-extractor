@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RootNamespace>win_icon_extractor</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>win-icon-extractor</AssemblyName>
+        <Authors>NenoxAG</Authors>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DebugType>none</DebugType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="securifybv.ShellLink" Version="0.1.0" />
+      <PackageReference Include="System.Drawing.Common" Version="7.0.0-preview.5.22301.12" />
+      <PackageReference Include="System.Drawing.Icons" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
